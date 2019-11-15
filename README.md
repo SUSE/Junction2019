@@ -24,9 +24,9 @@ orchestrating all the containerized apps that provide our open APIs.
 uMEC is meant to enable new functionalities and business models on the network 
 edge. Running applications on the network edge mean: 
  
- o lower latencies for us, the end users
- o less load on the network itself 
- o improved security and privacy since data will not be moved to a data centre.
+* lower latency for end users
+* less load on the network itself 
+* improved security and privacy since data will not be moved to a data centre.
  
 The APIs we provide today are in __early stage__ and not yet compliant with 
 the specifications of [ETSI MEC](https://www.etsi.org/technologies/multi-access-edge-computing).
@@ -36,8 +36,38 @@ the specifications of [ETSI MEC](https://www.etsi.org/technologies/multi-access-
 The implementation follows the [MEC011 specifications](https://forge.etsi.org/swagger/ui/?url=https://forge.etsi.org/gitlab/mec/gs011-app-enablement-api/raw/master/Mp1.yaml),
 however as stated above, we may not be fully compliant yet.
 
+__API endpoint: http://micromec.org:32000__
+
 Sources: https://gerrit.akraino.org/r/gitweb?p=umec.git;a=tree;f=mec11;hb=HEAD
 
+### uMEC Sensors API
 
+The API allows to read [RuuviTags](https://ruuvi.com/ruuvitag-specs) and get temperature, air pressure and humidity information from various points of the city. 
 
+__API endpoint: http://micromec.org:32001__
 
+Sources: https://github.com/rulex/ruuvimec
+
+### uMEC Detection API
+
+The API allows object detections in images using a Tensorflow model.
+
+__API endpoint: http://micromec.org:32002__
+
+Usage: <todo> uMEC Detection API How-to
+
+### uMEC Lights API
+
+Allows to turn lights ON and OFF in the Open Open City.
+
+__API endpoint and usage info: http://micromec.org:32003__
+
+Sources: https://github.com/agrasagar/ledpi4
+
+### uMEC Camera API
+
+Allows to take snapshots from the cameras deployed in the Open Open City.
+
+__API endpoint and usage info: http://micromec.org:32004__
+
+Sources: https://github.com/agrasagar/campi4
