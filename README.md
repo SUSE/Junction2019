@@ -1,39 +1,26 @@
-# Open Open City at Junction 2019
+#  SUSE Hackerpack for Junction 2019
 
-__Welcome to Junction 2019!__
+Fancy hacking on an imaginery city and it's open APIs? Want to extend and offer
+some more services? Come and talk to us! We would like to welcome you with our 
+friends from Nokia at the Open Open City challenge.
 
-On this page (and in this repository) we would like to provide useful info
-for SUSE's [Open Open City challenge](https://2019.hackjunction.com/challenges/open-open-city).
+## Downloads, Tools
 
-## Overview
+Start with the essentials: https://www.suse.com/download-linux/
 
-We are offering a set of uMEC APIs to "interact" with parts of our imaginary city. 
+Grab your favorite SUSE product and enjoy enterprise grade open source software.
+Upon registration you will be able to download and use our products. The 
+evaluation license of SUSE Linux Enterprise Server and Containers as A Service 
+Platform can be upgraded to a 1 year developer license. 
 
-![city picture](/static/city01.jpg)
-
-In this city we have an infrastrcuture that let's 3rd party apps
-to access data and even extend the circle of services. All these services are 
-meant to help and improve the quality of life of the citizens in the city.
-
-We have deployed uMEC gateways in the city. These gateways are represented by
-Raspberry Pis that are connected into a cluster. We use k3s for clustering and 
-orchestrating all the containerized apps that provide our open APIs.
-
-## Download
-
-Please use and utilize as much SUSE software as possible. Our  releases can be 
-downloaded -after a registration- at: https://www.suse.com/download-linux/
-
-We will upgrade your license to a 1 year license. The only requirement for that
-is that you specify __Junction2019__ as the company in the registration form.
+Just specify __Junction2019__ as the company in the registration form.
 
 ![download reg form](/static/SUSE_reg_form.png)
 
-## Developer Platforms
+### Dev Platforms
 
-You may use any ways to develop and deploy your solution, so that our judges can
-evaluate your work on Sunday. However we do offer some options, if you feel like
-trying them out:
+You may use develop and deploy your solution in any way you like.  However we do
+offer some options, if you feel like trying them out:
 
 * OpenFaaS Cloud for "serverless" solutions
 * OpenFaaS - for extending uMEC platform capabilities
@@ -41,6 +28,20 @@ trying them out:
 
 We will walk you through and provide information on how to get access to the 
 above mentioned systems shortly after Junction's kick-off. 
+
+## Overview
+
+We are offering a set of uMEC APIs to "interact" with parts of our imaginary city. 
+
+![city picture](/static/city01.jpg)
+
+In this city we have an infrastructure that let's 3rd party apps
+to access data and even extend the circle of services. All these services are 
+meant to help and improve the quality of life of the citizens in the city.
+
+We have deployed uMEC gateways in the city. These gateways are represented by
+Raspberry Pis that are connected into a cluster. We use k3s for clustering and 
+orchestrating all the containerized apps that provide our open APIs.
 
 ## uMEC APIs
 
@@ -78,11 +79,12 @@ The API allows object detections in images using a Tensorflow model.
 
 __API endpoint: http://micromec.org:32002__
 
-Usage: uMEC Detection API How-to published shortly
-
 Sample codes at GitHub:
 * [Selfie app in Node.js](https://github.com/feri/selfie)
 * [Selfie app in HTML / JS](https://github.com/feri/selfie2)
+
+Demo app in action: 
+* https://micromec.org/hack/feri_selfie2
 
 ### uMEC Lights API
 
