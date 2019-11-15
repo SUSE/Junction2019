@@ -1,6 +1,6 @@
 # Open Open City at Junction 2019
 
-Welcome to Junction 2019! 
+__Welcome to Junction 2019!__
 
 On this page (and in this repository) we would like to provide useful info
 for SUSE's [Open Open City challenge](https://2019.hackjunction.com/challenges/open-open-city).
@@ -18,6 +18,29 @@ meant to help and improve the quality of life of the citizens in the city.
 We have deployed uMEC gateways in the city. These gateways are represented by
 Raspberry Pis that are connected into a cluster. We use k3s for clustering and 
 orchestrating all the containerized apps that provide our open APIs.
+
+## Download
+
+Please use and utilize as much SUSE software as possible. Our  releases can be 
+downloaded -after a registration- at: https://www.suse.com/download-linux/
+
+We will upgrade your license to a 1 year license. The only requirement for that
+is that you specify "Junction2019" as your company in the registration form.
+
+![city picture](/static/city01.jpg)
+
+## Developer Platforms
+
+You may use any ways to develop and deploy your solution, so that our judges can
+evaluate your work on Sunday. However we do offer some options, if you feel like
+trying them out:
+
+* OpenFaaS Cloud for "serverless" solutions
+* OpenFaaS - for extending uMEC platform capabilities
+* SUSE CAP - for cloud native development (subject to availability)
+
+We will walk you through and provide information on how to get access to the 
+above mentioned systems shortly after Junction's kick-off. 
 
 ## uMEC APIs
 
@@ -42,7 +65,8 @@ Sources: https://gerrit.akraino.org/r/gitweb?p=umec.git;a=tree;f=mec11;hb=HEAD
 
 ### uMEC Sensors API
 
-The API allows to read [RuuviTags](https://ruuvi.com/ruuvitag-specs) and get temperature, air pressure and humidity information from various points of the city. 
+The API allows to read [RuuviTags](https://ruuvi.com/ruuvitag-specs) and get 
+temperature, air pressure and humidity information from various points of the city. 
 
 __API endpoint: http://micromec.org:32001__
 
@@ -54,7 +78,11 @@ The API allows object detections in images using a Tensorflow model.
 
 __API endpoint: http://micromec.org:32002__
 
-Usage: <todo> uMEC Detection API How-to
+Usage: uMEC Detection API How-to published shortly
+
+Sample codes at GitHub:
+* [Selfie app in Node.js](https://github.com/feri/selfie)
+* [Selfie app in HTML / JS](https://github.com/feri/selfie2)
 
 ### uMEC Lights API
 
@@ -71,3 +99,15 @@ Allows to take snapshots from the cameras deployed in the Open Open City.
 __API endpoint and usage info: http://micromec.org:32004__
 
 Sources: https://github.com/agrasagar/campi4
+
+## Contact Us
+
+Please do reach out to us, if you have questions, doubts, or even cool new ideas.
+We will be at your disposal throughout the hackathon. You can find us at the 
+SUSE stand or just ping us online via Discord: 
+
+[challenge-suse channel](https://discordapp.com/channels/622013195867127828/633980829923672064) 
+
+### Have a lot of fun... Happy Hacking!
+
+
