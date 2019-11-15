@@ -25,9 +25,9 @@ Please use and utilize as much SUSE software as possible. Our  releases can be
 downloaded -after a registration- at: https://www.suse.com/download-linux/
 
 We will upgrade your license to a 1 year license. The only requirement for that
-is that you specify "Junction2019" as your company in the registration form.
+is that you specify __Junction2019__ as the company in the registration form.
 
-![city picture](/static/city01.jpg)
+![download reg form](/static/SUSE_reg_form.png)
 
 ## Developer Platforms
 
