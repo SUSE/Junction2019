@@ -60,7 +60,7 @@ the specifications of [ETSI MEC](https://www.etsi.org/technologies/multi-access-
 The implementation follows the [MEC011 specifications](https://forge.etsi.org/swagger/ui/?url=https://forge.etsi.org/gitlab/mec/gs011-app-enablement-api/raw/master/Mp1.yaml),
 however as stated above, we may not be fully compliant yet.
 
-__API endpoint: http://micromec.org:32000__
+__API endpoint: https://micromec.org:32000__
 
 Sources: https://gerrit.akraino.org/r/gitweb?p=umec.git;a=tree;f=mec11;hb=HEAD
 
@@ -69,7 +69,7 @@ Sources: https://gerrit.akraino.org/r/gitweb?p=umec.git;a=tree;f=mec11;hb=HEAD
 The API allows to read [RuuviTags](https://ruuvi.com/ruuvitag-specs) and get 
 temperature, air pressure and humidity information from various points of the city. 
 
-__API endpoint: http://micromec.org:32001__
+__API endpoint: https://micromec.org:32001__
 
 Sources: https://github.com/rulex/ruuvimec
 
@@ -77,7 +77,7 @@ Sources: https://github.com/rulex/ruuvimec
 
 The API allows object detections in images using a Tensorflow model.
 
-__API endpoint: http://micromec.org:32002__
+__API endpoint: https://micromec.org:32002__
 
 Sample codes at GitHub:
 * [Selfie app in Node.js](https://github.com/feri/selfie)
@@ -90,7 +90,7 @@ Demo app in action:
 
 Allows to turn lights ON and OFF in the Open Open City.
 
-__API endpoint and usage info: http://micromec.org:32003__
+__API endpoint and usage info: https://micromec.org:32003__
 
 Sources: https://github.com/agrasagar/ledpi4
 
@@ -98,7 +98,7 @@ Sources: https://github.com/agrasagar/ledpi4
 
 Allows to take snapshots from the cameras deployed in the Open Open City.
 
-__API endpoint and usage info: http://micromec.org:32004__
+__API endpoint and usage info: https://micromec.org:32004__
 
 Sources: https://github.com/agrasagar/campi4
 
