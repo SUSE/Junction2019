@@ -10,14 +10,14 @@ You need the following files:
 
 <project> is the name of your __Junction 2019__ project that you have submitted.
 
-__ IMPORTANT __
+__IMPORTANT__
 
 Please come and talk to us when your app is ready. We will help you with the 
 deployment, if needed. :)
 
 ## ```<project>_service.yml```
 
-__ IMPORTANT __
+__IMPORTANT__
 
 Please pick a Nodeport from the range: __32100-32200__
 
