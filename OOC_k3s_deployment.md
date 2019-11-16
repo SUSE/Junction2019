@@ -5,8 +5,8 @@ application to Open Open City's k3s cluster.
 
 You need the following files:
 
-* <project>_service.yml
-* <project>_deployment.yml
+* ```<project>_service.yml```
+* ```<project>_deployment.yml```
 
 <project> is the name of your __Junction 2019__ project that you have submitted.
 
@@ -15,7 +15,7 @@ __ IMPORTANT __
 Please come and talk to us when your app is ready. We will help you with the 
 deployment, if needed. :)
 
-## <project>_service.yml
+## ```<project>_service.yml```
 
 __ IMPORTANT __
 
@@ -46,21 +46,23 @@ spec:
     app: <project>
 ```
 
-## <project>_deployment.yml
+## ```<project>_deployment.yml```
 
 Your applications can be deployed on either a RPi 4B+ node, or RPi 3B+ nodes.
 The RPi 4B+ runs a 32 bit OS, while the 3B+ nodes run 64bit OpenSUSE Tumbleweed.
 
 Please keep that info in mind and prepare your container image accordingly. 
-Also state the correct ```nodeSelector``` value in the deployment file.
+Also state the correct __nodeSelector__ value in the deployment file.
 
 We currently have support for the following nodeSelector values:
 
-* kubernetes.io/arch: arm  -> for RPi 4B+
+* RPi 4B+: kubernetes.io/arch: arm
 
-* kubernetes.io/arch: arm64 -> for RPi 3B+
+* RPi 3B+: kubernetes.io/arch: arm64
 
-Tip: to ease your work we recommend to pick a suitable base container image 
+Tip: 
+
+to ease your work we recommend to pick a suitable base container image 
 from a well know container registry and modify it to suit your needs.
 
 ```
